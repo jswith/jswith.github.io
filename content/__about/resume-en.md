@@ -4,10 +4,11 @@ date: 2019-1-27 16:21:13
 lang: 'en'
 ---
 
-# Your name
+# jswith 🌿
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+안녕하세요! 👋 <br>
+이런저런 생각을 기록하는 블로그입니다.
 
 </div>

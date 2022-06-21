@@ -36,22 +36,22 @@ export default ({ data, pageContext, location }) => {
       <PostTitle title={postTitle} />
       <PostDate date={date} />
       <PostContainer html={post.html} />
-      <SocialShare title={postTitle} author={author} />
-      {!!sponsor.buyMeACoffeeId && (
+      {/* <SocialShare title={postTitle} author={author} /> */}
+      {/* {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
+      )} */}
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
-      {!!disqusShortName && (
+      {/* {!!disqusShortName && (
         <Disqus
           post={post}
           shortName={disqusShortName}
           siteUrl={siteUrl}
           slug={pageContext.slug}
         />
-      )}
-      {!!utterances && <Utterances repo={utterances} />}
+      )} */}
+      {/* {!!utterances && <Utterances repo={utterances} />} */}
     </Layout>
   )
 }
